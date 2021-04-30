@@ -1,10 +1,10 @@
-com/newproject/book/web/dto/HelloResponseDtoTest.java
- com.newproject.book.web.dto.HelloResponseDtoTest
 com/newproject/book/web/PostsApiControllerTest.java
  com.newproject.book.web.PostsApiControllerTest
+com/newproject/book/web/HelloControllerTest.java
+ com.newproject.book.web.HelloControllerTest
 com/newproject/book/web/IndexControllerTest.java
  com.newproject.book.web.IndexControllerTest
 com/newproject/book/domain/posts/PostsRepositoryTest.java
  com.newproject.book.domain.posts.PostsRepositoryTest
-com/newproject/book/web/HelloControllerTest.java
- com.newproject.book.web.HelloControllerTest
+com/newproject/book/web/dto/HelloResponseDtoTest.java
+ com.newproject.book.web.dto.HelloResponseDtoTest
