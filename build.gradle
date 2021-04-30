@@ -47,4 +47,8 @@ dependencies {
 
     //mariaDB
     compile('org.mariadb.jdbc:mariadb-java-client')
+
+    //bug
+    compile('org.springframework.session:spring-session-data-redis:2.0.3.RELEASE')
+
 }
