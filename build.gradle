@@ -16,18 +16,18 @@ apply plugin : 'org.springframework.boot'
 apply plugin : 'io.spring.dependency-management'
 
 group 'com.newproject.book'
-version '1.0-SNAPSHOT'
+version '1.0-SNAPSHOT-'+new Date().format("yyyyMMddHHmmss")
 sourceCompatibility=1.8
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
     compileOnly('org.projectlombok:lombok')
     annotationProcessor("org.projectlombok:lombok")
-    testCompile group :'org.assertj', name:'assertj-core', version:'3.6.1'
     testCompile('org.springframework.boot:spring-boot-starter-test')
 
     //chap3
@@ -46,5 +46,5 @@ dependencies {
     testCompile('org.springframework.security:spring-security-test')
 
     //mariaDB
-    compile('org.mariaDB.jdbc:mariadb-java-client')
+    compile('org.mariadb.jdbc:mariadb-java-client')
 }
