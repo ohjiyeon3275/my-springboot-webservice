@@ -4,8 +4,8 @@ plugins { // (1)
     id 'java'
 }
 
-group 'com.jojoldu.book'
-version '1.0.4-SNAPSHOT-'+new Date().format("yyyyMMddHHmmss")
+group 'com.newproject.book'
+version '1.0.4-SNAPSHOT-'
 sourceCompatibility = 1.8
 
 repositories {
